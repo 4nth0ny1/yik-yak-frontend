@@ -37,5 +37,6 @@ function submitComment(e) {
     const li = document.createElement('li')
     li.innerText = commentInput
     commentList.appendChild(li)
-    console.log(e.target.nextElementSibling)
+    
+    e.target.reset()
 }
