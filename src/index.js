@@ -24,6 +24,7 @@ function submitPost() {
             content: postInput.value 
         })
     }
+
     fetch(postURL, configObj)
 
     renderPost(postInput.value)
